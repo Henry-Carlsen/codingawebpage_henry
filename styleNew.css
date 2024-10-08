@@ -1,0 +1,104 @@
+@charset "UTF-8";
+h1,h3,h2 {
+  	font-family: "Germania One", system-ui;
+  	font-weight: 950;
+  	font-style: normal;
+	color:#6C8C16
+
+}
+
+h1{
+	font-size: 44px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 17px;
+}
+
+body,p{
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+    color: #3A4405;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+
+a:hover {
+	color: #136C60;
+	background-color: #B7AD17;
+}
+
+footer {
+    background-color: #B2B647;
+    padding: 1px;
+    font-size: x-large;
+}
+p{padding-left: 26%}
+
+img{
+	display: block;
+    width: 50%;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.button a {
+		background-color:#941B1D;
+			color:#FFFFFF; 
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 15px;
+padding-top: 15px;
+border-radius: 10px;
+	text-decoration: none;
+}
+
+.button a:hover{
+	background-color: #E7CD41;
+	color:#FFFFFF;
+	
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightAlign{
+	float: right;
+	padding-left: 100px;
+}
+
+.leftAlign{
+	float: left;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.twocolumn{
+	column-count: 2;
+	column-gap: 70px;
+	
+}
+
+.backgroundcolor{
+	background-color: #E7DFB4;
+}
+
+.linkcolor{
+	color:#6C8B16; 
+}
