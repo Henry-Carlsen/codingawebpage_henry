@@ -1,9 +1,9 @@
 @charset "UTF-8";
-h1,h3,h2 {
+h1,h3,h2,h4,h5 {
   	font-family: "Germania One", system-ui;
-  	font-weight: 950;
+  	font-weight: ;
   	font-style: normal;
-	color:#6C8C16
+	color:#3A4405;
 
 }
 
@@ -20,15 +20,18 @@ h4{
 	font-size: 25px;
 }
 h5{
-	font-size: 17px;
+	font-size: 20px;
+}
+p{
+	font-size: 20px; 
 }
 
-body,p{
+body{
   font-family: "Secular One", sans-serif;
   font-weight: 400;
   font-style: normal;
 
-    color: #3A4405;
+    color: #5E7913;
     margin-left: 200px;
     margin-top: 200px;
     margin-right: 200px;
@@ -37,16 +40,16 @@ body,p{
 
 
 a:hover {
-	color: #136C60;
+	color: #C9E179;
 	background-color: #B7AD17;
 }
 
 footer {
-    background-color: #B2B647;
-    padding: 1px;
+    background-color: #C76A19;
+    padding: 25px;
     font-size: x-large;
 }
-p{padding-left: 26%}
+
 
 img{
 	display: block;
@@ -56,8 +59,9 @@ img{
 }
 
 .button a {
-		background-color:#941B1D;
+		background-color:#C76A19;
 			color:#FFFFFF; 
+	outline-style: solid; outline-color: #E7DFB4;
 padding-right: 15px;
 padding-left: 15px;
 padding-bottom: 15px;
@@ -100,5 +104,14 @@ border-radius: 10px;
 }
 
 .linkcolor{
-	color:#6C8B16; 
+	color:#C76A19; 
+}
+
+.pull-quote{
+    font-size: 1.5em;
+    font-style: italic;
+    border-left: 4px solid #C76A19;
+    padding-left: 20px;
+    margin: 20px 0;
+    color: #C76A19;
 }
